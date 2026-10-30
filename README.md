@@ -1,10 +1,12 @@
 # 🍷 Wine Machine Learning Project
 
+
 ## Project Overview
 
 This project explores the relationship between wine prices and professional ratings using data analysis and machine learning.
 
 The main objective was to investigate whether more expensive wines tend to receive higher ratings and whether machine learning models can predict wine ratings based on selected features.
+
 
 ## 🎯 Research Question
 
@@ -15,6 +17,7 @@ The main objective was to investigate whether more expensive wines tend to recei
 The project uses the Wine Enthusiast dataset (`wine-price.csv`).
 
 The target variable was `points`, representing the professional wine rating.
+
 
 ## ⚙️ Methodology
 
@@ -28,6 +31,7 @@ The project followed these main steps:
 6. **Model Evaluation:** Evaluated performance using Mean Absolute Error (MAE) and R².
 7. **Hyperparameter Tuning:** Used GridSearchCV and cross-validation to optimise the Random Forest model.
 
+
 ## 🤖 Machine Learning Models
 
 Two algorithms were explored across three model configurations:
@@ -40,12 +44,14 @@ Two algorithms were explored across three model configurations:
 
 **Random Forest achieved the best performance**, with an average prediction error of approximately 1.85 rating points and an R² of 0.428.
 
+
 ## 🔍 Key Findings
 
 - Wine ratings generally increased across higher price ranges.
 - The Pearson correlation between price and ratings was approximately 0.416, indicating a moderate positive relationship.
 - Price was the most important feature in the Random Forest model, accounting for approximately 86.82% of feature importance.
 - Variety and country also contributed to the model's predictions.
+
 
 ## 💡 Conclusion
 
@@ -54,6 +60,7 @@ The analysis suggests that higher-priced wines tend to receive higher profession
 The Random Forest model performed better than Linear Regression, showing that more complex relationships between features can help improve predictions.
 
 **Importantly, correlation does not imply causation, and a higher price does not necessarily mean a better wine.**
+
 
 ## 🛠️ Tools & Technologies
 
@@ -66,9 +73,11 @@ The Random Forest model performed better than Linear Regression, showing that mo
 - Jupyter Notebook
 - Machine Learning
 
+
 ## 📄 Project Presentation
 
 [View the Wine Machine Learning Project Presentation (PDF)](https://drive.google.com/file/d/1KospnSs6nDIdQHul-Y_fxkckQ4C-Bisl/view?usp=sharing)
+
 
 ## 🚀 Future Improvements
 
@@ -77,8 +86,4 @@ The Random Forest model performed better than Linear Regression, showing that mo
 - Experiment with further hyperparameter tuning.
 - Evaluate whether additional features can improve prediction performance.
 
-
-
-i just changed a bit the dataset field because i felt like it wasnt necessary what do you think
-
-do we also need the future improvements?
+  
